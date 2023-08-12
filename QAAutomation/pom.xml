@@ -13,6 +13,7 @@
         <maven.compiler.target>18</maven.compiler.target>
         <isRemoteDriver>false</isRemoteDriver>
         <aspectj.version>1.9.5</aspectj.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
