@@ -1,9 +1,6 @@
 package tests.base;
 
-import Project.Pages.BasePage;
-import Project.Pages.CategoryComputers;
-import Project.Pages.HomePage;
-import Project.Pages.SneakerProductPage;
+import Project.Pages.*;
 import Project.common.CommonActions;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
@@ -14,6 +11,7 @@ public class BaseTest {
     protected HomePage homePage = new HomePage(driver);
     protected CategoryComputers categoryComputers = new CategoryComputers(driver);
     protected SneakerProductPage sneakerProductPage = new SneakerProductPage(driver);
+    protected SearchResultsFan searchResultsFan = new SearchResultsFan(driver);
 
     // @AfterSuite (alwaysRun = true)
     public void closeBrowser() {
