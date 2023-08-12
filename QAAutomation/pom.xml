@@ -80,7 +80,7 @@
                     <skipTests>false</skipTests>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testngAll.xml</suiteXmlFile>
+                        <suiteXmlFile>TestSuites/testsAll.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
